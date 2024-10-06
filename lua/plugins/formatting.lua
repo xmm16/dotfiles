@@ -16,6 +16,8 @@ return {
 				json = { "prettierd" },
 				markdown = { "prettierd" },
 				lua = { "stylua", "lua_ls" },
+				c = { "clang-format" },
+				cpp = { "clang-format" },
 			},
 			format_on_save = {
 				lsp_fallback = true,

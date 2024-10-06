@@ -20,11 +20,12 @@ return {
 		})
 		mason_tool_installer.setup({
 			ensure_installed = {
-				"prettierd", -- prettierd formatter
+				"prettierd", -- prettierd formatter for general-purpose
 				"stylua", -- lua formatter
 				"luacheck", -- lua linter
-				"eslint_d", -- js/ts linter
-				"htmlhint", -- html linter
+				"eslint_d", -- JavaScript/TypeScript linter
+				"htmlhint", -- HTML linter
+				"clang-format", -- C/C++ Formatter
 			},
 		})
 	end,
