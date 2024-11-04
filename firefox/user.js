@@ -92,14 +92,8 @@ user_pref("browser.shell.checkDefaultBrowser", false);
 
 // PREF: disable Extension Recommendations (CFR: "Contextual Feature Recommender")
 // [1] https://support.mozilla.org/en-US/kb/extension-recommendations
-user_pref(
-  "browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons",
-  false,
-);
-user_pref(
-  "browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features",
-  false,
-);
+user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
+user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
 
 // PREF: hide "More from Mozilla" in Settings
 user_pref("browser.preferences.moreFromMozilla", false);
@@ -138,10 +132,7 @@ user_pref("browser.profiles.enabled", true);
 // PREF: add compact mode back to options
 user_pref("browser.compactmode.show", true);
 user_pref("layout.css.prefers-color-scheme.content-override", 0);
-user_pref(
-  "browser.newtabpage.activity-stream.newtabWallpapers.v2.enabled",
-  true,
-);
+user_pref("browser.newtabpage.activity-stream.newtabWallpapers.v2.enabled", true);
 user_pref("cookiebanners.service.mode", 1);
 user_pref("cookiebanners.service.mode.privateBrowsing", 1);
 user_pref("cookiebanners.service.enableGlobalRules", true); // DEFAULT [FF121+]
@@ -167,10 +158,7 @@ user_pref("image.jxl.enabled", true);
 // SECURITY
 user_pref("privacy.trackingprotection.enabled", true); // enabled with "Strict"
 user_pref("privacy.trackingprotection.pbmode.enabled", true); // DEFAULT
-user_pref(
-  "browser.contentblocking.customBlockList.preferences.ui.enabled",
-  false,
-); // DEFAULT
+user_pref("browser.contentblocking.customBlockList.preferences.ui.enabled", false); // DEFAULT
 user_pref("browser.contentblocking.category", "strict");
 user_pref("privacy.trackingprotection.socialtracking.enabled", true); // enabled with "Strict"
 user_pref("privacy.socialtracking.block_cookies.enabled", true); // DEFAULT
@@ -179,14 +167,8 @@ user_pref("privacy.trackingprotection.fingerprinting.enabled", true); // DEFAULT
 user_pref("privacy.trackingprotection.emailtracking.enabled", true); // enabled with "Strict"
 user_pref("network.http.referer.disallowCrossSiteRelaxingDefault", true); // DEFAULT
 user_pref("network.http.referer.disallowCrossSiteRelaxingDefault.pbmode", true); // DEFAULT
-user_pref(
-  "network.http.referer.disallowCrossSiteRelaxingDefault.pbmode.top_navigation",
-  true,
-); // DEFAULT
-user_pref(
-  "network.http.referer.disallowCrossSiteRelaxingDefault.top_navigation",
-  true,
-); // enabled with "Strict"
+user_pref("network.http.referer.disallowCrossSiteRelaxingDefault.pbmode.top_navigation", true); // DEFAULT
+user_pref("network.http.referer.disallowCrossSiteRelaxingDefault.top_navigation", true); // enabled with "Strict"
 user_pref("privacy.annotate_channels.strict_list.enabled", true); // enabled with "Strict"
 user_pref("privacy.annotate_channels.strict_list.pbmode.enabled", true); // DEFAULT
 user_pref("privacy.fingerprintingProtection", true); // [FF114+] [ETP FF119+] enabled with "Strict"
@@ -211,14 +193,8 @@ user_pref("security.ssl.treat_unsafe_negotiation_as_broken", true);
 user_pref("security.ssl.require_safe_negotiation", true);
 user_pref("browser.xul.error_pages.expert_bad_cert", true);
 user_pref("security.tls.enable_0rtt_data", false);
-user_pref(
-  "privacy.resistFingerprinting.randomization.daily_reset.enabled",
-  true,
-);
-user_pref(
-  "privacy.resistFingerprinting.randomization.daily_reset.private.enabled",
-  true,
-);
+user_pref("privacy.resistFingerprinting.randomization.daily_reset.enabled", true);
+user_pref("privacy.resistFingerprinting.randomization.daily_reset.private.enabled", true);
 user_pref("dom.security.https_only_mode_pbm", true); // Private Browsing windows only
 user_pref("dom.security.https_only_mode", true);
 user_pref("dom.security.https_only_mode_error_page_user_suggestions", true);
