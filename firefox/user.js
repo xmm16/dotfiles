@@ -191,14 +191,6 @@ user_pref("security.pki.crlite_mode", 3);
 user_pref("security.cert_pinning.enforcement_level", 2);
 user_pref("security.ssl.treat_unsafe_negotiation_as_broken", true);
 user_pref("security.ssl.require_safe_negotiation", true);
-user_pref("security.ssl3.ecdhe_ecdsa_aes_128_sha", false);
-user_pref("security.ssl3.ecdhe_ecdsa_aes_256_sha", false);
-user_pref("security.ssl3.ecdhe_rsa_aes_128_sha", false);
-user_pref("security.ssl3.ecdhe_rsa_aes_256_sha", false);
-user_pref("security.ssl3.rsa_aes_128_gcm_sha256", false); // no PFS
-user_pref("security.ssl3.rsa_aes_256_gcm_sha384", false); // no PFS
-user_pref("security.ssl3.rsa_aes_128_sha", false); // no PFS
-user_pref("security.ssl3.rsa_aes_256_sha", false); // no PFS
 user_pref("browser.xul.error_pages.expert_bad_cert", true);
 user_pref("security.tls.enable_0rtt_data", false);
 user_pref("privacy.resistFingerprinting.randomization.daily_reset.enabled", true);
@@ -218,8 +210,7 @@ user_pref("permissions.default.desktop-notification", 2);
 user_pref("permissions.default.geo", 2);
 user_pref("permissions.default.camera", 2);
 user_pref("permissions.default.microphone", 2);
-user_pref("security.tls.version.min", 4);
-user_pref("security.tls.version.max", 4);
+
 // Telemetry
 user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.enabled", false); // see [NOTE]
